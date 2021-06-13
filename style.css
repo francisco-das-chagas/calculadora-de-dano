@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #ffcc01;
+  font-weight: lighter;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  background-image: url(./img/bg.png);
+  background-position: left;
+  background-position: fixed;
+}
+body img {
+  width: 60px;
+  height: auto;
+}
+.pokebola img {
+  width: 69px;
+  margin-left: 222px;
+  position: absolute;
+  transition: width 3s, height 3s, transform 3s;
+}
+.pokebola img:hover {
+  width: 69px;
+  margin-left: 222px;
+  position: absolute;
+  transform: rotate(360deg);
+}
+
+.calculadora-dano {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  border: 5px solid #ffcc01;
+  box-shadow: 9px 1px 8px #020211;
+  background-color: #0d7af7;
+}
+
+.linha-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.elementos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.elemento-pokemon {
+  width: 200px;
+}
+
+.elemento {
+  cursor: pointer;
+}
+
+.elemento p {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(6, 51, 253);
+  border: none;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+button:hover {
+  width: 170px;
+  height: 50px;
+  background-color: #ffcc01;
+  color: #000;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: wavy;
+  transition: 0.2s ease-in;
+}
+
+.selecionado {
+  border: 2px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#dano {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.elementos-container img {
+  width: 150px;
+  height: auto;
+}
+.elementos-container img:hover {
+  width: 180px;
+  height: auto;
+  transition: width 2s, height 2s;
+}
+
+.logo img {
+  width: 170px;
+  height: auto;
+  margin: 10px 10px;
+}
+.logo img:hover {
+  width: 200px;
+  height: auto;
+  margin: 10px 10px;
+  transition: width 2s, height 4s;
+}
